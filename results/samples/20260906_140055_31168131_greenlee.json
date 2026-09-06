@@ -1,0 +1,95 @@
+{
+  "run_id": "20260906_140055_31168131_greenlee",
+  "timestamp": "20260906_140055",
+  "ammeter_type": "greenlee",
+  "sampling_result": {
+    "ammeter_type": "greenlee",
+    "measurements": [
+      {
+        "ammeter_type": "greenlee",
+        "port": 5001,
+        "success": true,
+        "current": 0.6314412008958891,
+        "error": null
+      },
+      {
+        "ammeter_type": "greenlee",
+        "port": 5001,
+        "success": true,
+        "current": 0.07874845189377953,
+        "error": null
+      },
+      {
+        "ammeter_type": "greenlee",
+        "port": 5001,
+        "success": true,
+        "current": 0.16913087358048234,
+        "error": null
+      },
+      {
+        "ammeter_type": "greenlee",
+        "port": 5001,
+        "success": true,
+        "current": 0.09982278094865868,
+        "error": null
+      },
+      {
+        "ammeter_type": "greenlee",
+        "port": 5001,
+        "success": true,
+        "current": 0.08825360291079011,
+        "error": null
+      },
+      {
+        "ammeter_type": "greenlee",
+        "port": 5001,
+        "success": true,
+        "current": 0.0823477207740687,
+        "error": null
+      },
+      {
+        "ammeter_type": "greenlee",
+        "port": 5001,
+        "success": true,
+        "current": 0.5715801251653321,
+        "error": null
+      },
+      {
+        "ammeter_type": "greenlee",
+        "port": 5001,
+        "success": true,
+        "current": 0.25197736178048186,
+        "error": null
+      },
+      {
+        "ammeter_type": "greenlee",
+        "port": 5001,
+        "success": true,
+        "current": 0.03573060887834537,
+        "error": null
+      },
+      {
+        "ammeter_type": "greenlee",
+        "port": 5001,
+        "success": true,
+        "current": 0.05338117679855741,
+        "error": null
+      }
+    ],
+    "requested_count": 10,
+    "actual_count": 10,
+    "requested_duration_seconds": 5,
+    "actual_duration_seconds": 4.506681467
+  },
+  "analysis_result": {
+    "count": 10,
+    "total_count": 10,
+    "mean": 0.20624139036263853,
+    "median": 0.0940381919297244,
+    "stdev": 0.2178242258224359,
+    "min": 0.03573060887834537,
+    "max": 0.6314412008958891,
+    "error": null,
+    "note": null
+  }
+}

@@ -2,28 +2,37 @@ import logging
 import os
 from datetime import datetime
 
+LOG_DIR = "results/logs"
+
+# One log file per program run, shared by every TestLogger instance.
+_run_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+LOG_FILE = os.path.join(LOG_DIR, f"{_run_timestamp}_test_run.log")
+
+
+def _setup_logger() -> logging.Logger:
+    """
+    Configure the parent logger once. Every TestLogger is a child of it,
+    so they all write to the same file through a single handler.
+    """
+    parent = logging.getLogger("ammeter_qa")
+    parent.setLevel(logging.DEBUG)
+
+    if not parent.handlers:
+        os.makedirs(LOG_DIR, exist_ok=True)
+        handler = logging.FileHandler(LOG_FILE)
+        handler.setFormatter(
+            logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
+        )
+        parent.addHandler(handler)
+
+    return parent
+
+
 class TestLogger:
     def __init__(self, test_name: str):
         self._test_name = test_name
-        self.logger = self._setup_logger()
-
-    def _setup_logger(self) -> logging.Logger:
-        """
-        הגדרת הלוגר עם פורמט מותאם וכתיבה לקובץ
-        """
-        # יצירת תיקיית הלוגים
-        log_dir = "results/logs"
-        os.makedirs(log_dir, exist_ok=True)
-
-        # הגדרת שם הקובץ עם תאריך ומזהה הבדיקה
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        log_file = f"{log_dir}/{timestamp}_{self._test_name}.log"
-
-        # הגדרת הלוגר
-        logger = logging.getLogger(f"test_{self._test_name}")
-
-
-        return logger
+        _setup_logger()
+        self.logger = logging.getLogger(f"ammeter_qa.{test_name}")
 
     def info(self, message: str):
         self.logger.info(message)
@@ -35,4 +44,4 @@ class TestLogger:
         self.logger.debug(message)
 
     def warning(self, message: str):
-        self.logger.warning(message) 
+        self.logger.warning(message)

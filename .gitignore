@@ -4,6 +4,8 @@ __pycache__/
 .vscode/
 venv/
 .venv/
-results/
+results/*
+!results/samples/
 *.log
+!results/samples/**
 .DS_Store

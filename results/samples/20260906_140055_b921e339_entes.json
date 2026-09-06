@@ -1,0 +1,95 @@
+{
+  "run_id": "20260906_140055_b921e339_entes",
+  "timestamp": "20260906_140055",
+  "ammeter_type": "entes",
+  "sampling_result": {
+    "ammeter_type": "entes",
+    "measurements": [
+      {
+        "ammeter_type": "entes",
+        "port": 5002,
+        "success": true,
+        "current": 8.28658593952085,
+        "error": null
+      },
+      {
+        "ammeter_type": "entes",
+        "port": 5002,
+        "success": true,
+        "current": 59.87089635993965,
+        "error": null
+      },
+      {
+        "ammeter_type": "entes",
+        "port": 5002,
+        "success": true,
+        "current": 64.48864013581823,
+        "error": null
+      },
+      {
+        "ammeter_type": "entes",
+        "port": 5002,
+        "success": true,
+        "current": 51.906962490395166,
+        "error": null
+      },
+      {
+        "ammeter_type": "entes",
+        "port": 5002,
+        "success": true,
+        "current": 48.31797772236797,
+        "error": null
+      },
+      {
+        "ammeter_type": "entes",
+        "port": 5002,
+        "success": true,
+        "current": 28.29051004603651,
+        "error": null
+      },
+      {
+        "ammeter_type": "entes",
+        "port": 5002,
+        "success": true,
+        "current": 45.76048430610589,
+        "error": null
+      },
+      {
+        "ammeter_type": "entes",
+        "port": 5002,
+        "success": true,
+        "current": 31.104546852674087,
+        "error": null
+      },
+      {
+        "ammeter_type": "entes",
+        "port": 5002,
+        "success": true,
+        "current": 88.29981194374055,
+        "error": null
+      },
+      {
+        "ammeter_type": "entes",
+        "port": 5002,
+        "success": true,
+        "current": 94.45546724522406,
+        "error": null
+      }
+    ],
+    "requested_count": 10,
+    "actual_count": 10,
+    "requested_duration_seconds": 5,
+    "actual_duration_seconds": 4.503194894
+  },
+  "analysis_result": {
+    "count": 10,
+    "total_count": 10,
+    "mean": 52.0781883041823,
+    "median": 50.112470106381565,
+    "stdev": 26.457762984006123,
+    "min": 8.28658593952085,
+    "max": 94.45546724522406,
+    "error": null,
+    "note": null
+  }
+}
