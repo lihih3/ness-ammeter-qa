@@ -1,0 +1,55 @@
+2026-09-06 14:00:36,388 [INFO] ammeter_qa.ammeter_test_framework: greenlee: success, current=0.10263633254058417
+2026-09-06 14:00:36,389 [INFO] ammeter_qa.ammeter_test_framework: entes: success, current=112.36353557392177
+2026-09-06 14:00:36,390 [INFO] ammeter_qa.ammeter_test_framework: circutor: success, current=0.013189311042849398
+2026-09-06 14:00:36,390 [ERROR] ammeter_qa.ammeter_test_framework: unknown_ammeter: unknown ammeter type
+2026-09-06 14:00:36,391 [INFO] ammeter_qa.ammeter_test_framework: greenlee: success, current=0.6314412008958891
+2026-09-06 14:00:36,893 [INFO] ammeter_qa.ammeter_test_framework: greenlee: success, current=0.07874845189377953
+2026-09-06 14:00:37,396 [INFO] ammeter_qa.ammeter_test_framework: greenlee: success, current=0.16913087358048234
+2026-09-06 14:00:37,892 [INFO] ammeter_qa.ammeter_test_framework: greenlee: success, current=0.09982278094865868
+2026-09-06 14:00:38,398 [INFO] ammeter_qa.ammeter_test_framework: greenlee: success, current=0.08825360291079011
+2026-09-06 14:00:38,893 [INFO] ammeter_qa.ammeter_test_framework: greenlee: success, current=0.0823477207740687
+2026-09-06 14:00:39,393 [INFO] ammeter_qa.ammeter_test_framework: greenlee: success, current=0.5715801251653321
+2026-09-06 14:00:39,893 [INFO] ammeter_qa.ammeter_test_framework: greenlee: success, current=0.25197736178048186
+2026-09-06 14:00:40,392 [INFO] ammeter_qa.ammeter_test_framework: greenlee: success, current=0.03573060887834537
+2026-09-06 14:00:40,897 [INFO] ammeter_qa.ammeter_test_framework: greenlee: success, current=0.05338117679855741
+2026-09-06 14:00:40,898 [INFO] ammeter_qa.ammeter_test_framework: entes: success, current=8.28658593952085
+2026-09-06 14:00:41,403 [INFO] ammeter_qa.ammeter_test_framework: entes: success, current=59.87089635993965
+2026-09-06 14:00:41,903 [INFO] ammeter_qa.ammeter_test_framework: entes: success, current=64.48864013581823
+2026-09-06 14:00:42,403 [INFO] ammeter_qa.ammeter_test_framework: entes: success, current=51.906962490395166
+2026-09-06 14:00:42,903 [INFO] ammeter_qa.ammeter_test_framework: entes: success, current=48.31797772236797
+2026-09-06 14:00:43,400 [INFO] ammeter_qa.ammeter_test_framework: entes: success, current=28.29051004603651
+2026-09-06 14:00:43,901 [INFO] ammeter_qa.ammeter_test_framework: entes: success, current=45.76048430610589
+2026-09-06 14:00:44,402 [INFO] ammeter_qa.ammeter_test_framework: entes: success, current=31.104546852674087
+2026-09-06 14:00:44,901 [INFO] ammeter_qa.ammeter_test_framework: entes: success, current=88.29981194374055
+2026-09-06 14:00:45,400 [INFO] ammeter_qa.ammeter_test_framework: entes: success, current=94.45546724522406
+2026-09-06 14:00:45,402 [INFO] ammeter_qa.ammeter_test_framework: circutor: success, current=0.049360103135813876
+2026-09-06 14:00:45,903 [INFO] ammeter_qa.ammeter_test_framework: circutor: success, current=0.028306564646945302
+2026-09-06 14:00:46,404 [INFO] ammeter_qa.ammeter_test_framework: circutor: success, current=0.05143559146785485
+2026-09-06 14:00:46,907 [INFO] ammeter_qa.ammeter_test_framework: circutor: success, current=0.011657882746701789
+2026-09-06 14:00:47,406 [INFO] ammeter_qa.ammeter_test_framework: circutor: success, current=0.012536841463528388
+2026-09-06 14:00:47,906 [INFO] ammeter_qa.ammeter_test_framework: circutor: success, current=0.033545747808757825
+2026-09-06 14:00:48,404 [INFO] ammeter_qa.ammeter_test_framework: circutor: success, current=0.011581408513393933
+2026-09-06 14:00:48,905 [INFO] ammeter_qa.ammeter_test_framework: circutor: success, current=0.02263742453131966
+2026-09-06 14:00:49,407 [INFO] ammeter_qa.ammeter_test_framework: circutor: success, current=0.04663879717112397
+2026-09-06 14:00:49,908 [INFO] ammeter_qa.ammeter_test_framework: circutor: success, current=0.02988669849306095
+2026-09-06 14:00:49,909 [ERROR] ammeter_qa.ammeter_test_framework: unknown_ammeter: unknown ammeter type
+2026-09-06 14:00:50,412 [ERROR] ammeter_qa.ammeter_test_framework: unknown_ammeter: unknown ammeter type
+2026-09-06 14:00:50,910 [ERROR] ammeter_qa.ammeter_test_framework: unknown_ammeter: unknown ammeter type
+2026-09-06 14:00:51,410 [ERROR] ammeter_qa.ammeter_test_framework: unknown_ammeter: unknown ammeter type
+2026-09-06 14:00:51,912 [ERROR] ammeter_qa.ammeter_test_framework: unknown_ammeter: unknown ammeter type
+2026-09-06 14:00:52,412 [ERROR] ammeter_qa.ammeter_test_framework: unknown_ammeter: unknown ammeter type
+2026-09-06 14:00:52,912 [ERROR] ammeter_qa.ammeter_test_framework: unknown_ammeter: unknown ammeter type
+2026-09-06 14:00:53,410 [ERROR] ammeter_qa.ammeter_test_framework: unknown_ammeter: unknown ammeter type
+2026-09-06 14:00:53,909 [ERROR] ammeter_qa.ammeter_test_framework: unknown_ammeter: unknown ammeter type
+2026-09-06 14:00:54,413 [ERROR] ammeter_qa.ammeter_test_framework: unknown_ammeter: unknown ammeter type
+2026-09-06 14:00:54,539 [INFO] ammeter_qa.visualization: greenlee: line chart saved to results/greenlee_line_20260906_140054.png
+2026-09-06 14:00:54,630 [INFO] ammeter_qa.visualization: greenlee: histogram chart saved to results/greenlee_histogram_20260906_140054.png
+2026-09-06 14:00:54,714 [INFO] ammeter_qa.visualization: entes: line chart saved to results/entes_line_20260906_140054.png
+2026-09-06 14:00:54,807 [INFO] ammeter_qa.visualization: entes: histogram chart saved to results/entes_histogram_20260906_140054.png
+2026-09-06 14:00:54,915 [INFO] ammeter_qa.visualization: circutor: line chart saved to results/circutor_line_20260906_140054.png
+2026-09-06 14:00:55,020 [INFO] ammeter_qa.visualization: circutor: histogram chart saved to results/circutor_histogram_20260906_140054.png
+2026-09-06 14:00:55,020 [WARNING] ammeter_qa.visualization: unknown_ammeter: no successful measurements to plot
+2026-09-06 14:00:56,026 [ERROR] ammeter_qa.ammeter_test_framework: faulty_data: could not convert string to float: 'NOT_A_NUMBER'
+2026-09-06 14:00:56,027 [ERROR] ammeter_qa.ammeter_test_framework: faulty_no_response: no data received
+2026-09-06 14:00:56,028 [ERROR] ammeter_qa.ammeter_test_framework: faulty_offline: [Errno 61] Connection refused
+2026-09-06 14:01:01,029 [ERROR] ammeter_qa.ammeter_test_framework: faulty_hang: timed out
